@@ -6,6 +6,7 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0; 
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -44,4 +45,8 @@ nav img {
     text-decoration: none;
     color: white;
     font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: "";
 }
